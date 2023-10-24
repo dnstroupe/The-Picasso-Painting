@@ -15,4 +15,5 @@ You must use z-index and hierarchical selectors in the code.
 Use common shorthands where applicable.
 Add an HTML form to collect the names and emails of interested visitors. 
 It should have a submit button and the form's action will take the user to another HTML page.
-Note: the form does not actually need to collect information! You can direct the user to another HTML page by assigning a value to the <form>'s action attribute.
+Note: the form does not actually need to collect information! You can direct the user to another HTML page by 
+assigning a value to the <form>'s action attribute.
