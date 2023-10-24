@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abstract Art Gallery</title>
+
+    <link rel="stylesheet" href="external.css" />
+  </head>
+  <body>
+    <div class="art-container">
+      <div class="circle"></div>
+      <div class="rectangle"></div>
+      <div class="triangle-up"></div>
+    </div>
+
+    <form action="form_submitted.html" method="GET" class="inquiry-form">
+      <h2>Interested in this piece?</h2>
+      <input
+        type="text"
+        id="name"
+        name="buyer_name"
+        placeholder="Your Name"
+        required
+      />
+      <input
+        type="email"
+        id="email"
+        name="buyer_email"
+        placeholder="Your Email"
+        required
+      />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
